@@ -6,14 +6,14 @@
 #include <HTTPClient.h>
 
 // --- WiFi Credentials ---
-const char* ssid = "Samanvi";
-const char* password = "sam@kiran";
+const char* ssid = "";
+const char* password = "";
 
-String BOT_TOKEN = "8821865976:AAFZIffA1BwabUuGPz1W1J5HAUVHTyjdyrI";
+String BOT_TOKEN = "";
 String CHAT_ID = "-1004329754962";
 
 // --- SIM800L Phone Number ---
-#define EMERGENCY_PHONE "+917411503401"  // Change to your emergency phone number
+#define EMERGENCY_PHONE ""  // Change to your emergency phone number
 
 // --- Pin Definitions ---
 #define PIN_HR 34     // HW-827 Pulse Signal
