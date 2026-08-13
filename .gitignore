@@ -1,0 +1,25 @@
+# Arduino build files
+*.hex
+*.elf
+*.bin
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
